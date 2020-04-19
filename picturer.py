@@ -21,8 +21,8 @@ def main():
             time.sleep(600)
 
         # Wait until sunrise to continue imaging
-        print(datetime.now().strftime('%Y %m %d')+' doned, sleeping until sunrise'))
-        wait = sunrise-datetime.now(pytz.timezone("Europe/Helsinki"))
+        print(datetime.now().strftime('%Y %m %d')+' doned, sleeping until sunrise')
+        wait = sunrise-datetime.now(pytz.timezone("Egurope/Helsinki"))
         time.sleep(wait.seconds)
 
     return  0
